@@ -4,7 +4,6 @@ compiler:
   - clang
   - gcc
 
-# Build steps
 script:
   - mkdir build
   - cd build
