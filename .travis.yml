@@ -10,3 +10,5 @@ script:
   - cd build
   - cmake --version
   - cmake .. && make
+  - cd .. && cd thirdparty && cd googletest
+  - ls
