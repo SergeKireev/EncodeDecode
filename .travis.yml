@@ -5,6 +5,7 @@ compiler:
   - gcc
 
 script:
+  - git submodule add https://github.com/google/googletest.git thirdparty/googletest 
   - mkdir build
   - cd build
   - cmake --version
