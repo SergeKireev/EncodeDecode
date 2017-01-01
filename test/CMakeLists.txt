@@ -8,3 +8,5 @@ MESSAGE( STATUS "GTEST_SOURCE_DIR:         " ${gtest_SOURCE_DIR} )
 
 add_executable(Encode-test test.cpp)
 target_link_libraries(Encode-test encode gtest gtest_main)
+enable_testing()
+add_test(NAME the encode-decode tests COMMAND Encode-test)
